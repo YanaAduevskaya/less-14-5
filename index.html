@@ -7,36 +7,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@200;400;600;700;900&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/materialize.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection">
     <link rel="stylesheet" href="css/style.css">
     <title>ArchiWeb</title>
 </head>
 <body>
     <!-- Интерактивное меню -->
-    <!-- <ul id="slide-out" class="sidenav">
-        <li><div class="user-view">
-          <div class="background">
-            <img src="images/office.jpg">
-          </div>
-          <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-          <a href="#name"><span class="white-text name">John Doe</span></a>
-          <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-        </div></li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
+    <ul id="slide-out" class="sidenav">
+        <li><div class="logot">ArchiWeb</div></li>
         <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-      </ul>
-      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+        <li><a class="waves-effect" href="#header">Home</a></li>
+        <li><a class="waves-effect" href="#services">Services</a></li>
+        <li><a class="waves-effect" href="#about_us">About Us</a></li>
+        <li><a class="waves-effect" href="#projects">Projects</a></li>
+        <li><a class="waves-effect" href="#testimonialv">Testimonialv</a></li>
+        <li><a class="waves-effect" href="#footer">Contacts</a></li>
+    </ul>
     
     <section class="navbar">
         <div class="container">
             <div class="navbar__flex">
                 <h1 class="logo" id="top">ArchiWeb</h1>
-                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="navbar__flex_menu">
                     <li class="menu-item"><a href="#">Home</a></li>
                     <li class="menu-item"><a href="#">Projects</a></li>
@@ -49,17 +42,18 @@
                         <button class="navbar-btn" form="forma" type="submit"><img src="img/search.svg" alt="search"></button>
                     </form>
                 </div>
+                <a class="sidenav-trigger" data-target="slide-out" href="#"><i class="material-icons">menu</i></a>
             </div>
         </div>
     </section>  
-    <header class="header">
+    <header class="header" id="header">
         <div class="header-bg"></div>
         <div class="header__text">
             <h2 class="header-h2">Best Solution For Your Home</h2>
             <p class="header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet</p>
         </div>
     </header>
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <h2 class="services-h2">Our Services</h2>
             <div class="services__flex">
@@ -81,7 +75,7 @@
             </div>
         </div>
     </section>
-    <section class="about_us">
+    <section class="about_us" id="about_us">
         <div class="about_us__flex">
             <img class="about_us-img" src="img/about_us-img.png" alt="about">
             <div class="about_us__flex_text">
@@ -91,7 +85,7 @@
             </div>
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="container">
             <h2 class="projects-h2">Our Projects</h2>
             <div class="projects__grid">
@@ -134,7 +128,7 @@
             </div>
         </div>
     </section>
-    <section class="testimonialv">
+    <section class="testimonialv" id="testimonialv">
         <div class="container">
             <h2 class="testimonialv-h2">Testimonial</h2>
             <div class="testimonialv__flex">
@@ -155,7 +149,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__flex">
                 <div class="footer__flex-item">
